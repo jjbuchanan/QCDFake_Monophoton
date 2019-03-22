@@ -45,11 +45,11 @@ void plot_den_purity(int i, float full_lumi){
   Float_t int_lumi = full_lumi;
   Float_t scale_factor = 0.984;
   
-  TFile *GJets_40to100 = new TFile("GJets_QCDfake_phoNum_40To100_TEST.root");
-  TFile *GJets_100to200 = new TFile("GJets_QCDfake_phoNum_100To200_TEST.root");
-  TFile *GJets_200to400 = new TFile("GJets_QCDfake_phoNum_200To400_TEST.root");
-  TFile *GJets_400to600 = new TFile("GJets_QCDfake_phoNum_400To600_TEST.root");
-  TFile *GJets_600toInf = new TFile("GJets_QCDfake_phoNum_600ToInf_TEST.root");
+  TFile *GJets_40to100 = new TFile("GJets_QCDfake_phoNum_40To100.root");
+  TFile *GJets_100to200 = new TFile("GJets_QCDfake_phoNum_100To200.root");
+  TFile *GJets_200to400 = new TFile("GJets_QCDfake_phoNum_200To400.root");
+  TFile *GJets_400to600 = new TFile("GJets_QCDfake_phoNum_400To600.root");
+  TFile *GJets_600toInf = new TFile("GJets_QCDfake_phoNum_600ToInf.root");
   TFile *f_data = new TFile("data_QCDfake_all.root");
 
   // TString histoname_den_QCD = TString("h_sieie_den_QCD_"+event_bin+"_"+sys_bin);
